@@ -1,0 +1,429 @@
+#bg_img {
+	position: fixed;
+	background-position: top right;
+	background: url(../img/fox1.jpg);
+	background-size: cover;
+  	width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+.home_bg {
+	top: 0px;
+	position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    margin-top: -7px;
+}
+
+.form_input_reg , .form_input_log {
+	width: 300px;
+}
+
+.gender_input {
+	width: 532px;
+	padding-left: 106px;
+}
+
+.form_main {
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+.reg_form {
+	display: inline-block;
+}
+
+.button_reg , .button_log {
+	width: 300px;
+}
+
+.log_form {
+	display: inline-block;
+	float: right;
+}
+
+.index_group {
+	width: 400px;
+}
+
+.index_label {
+	float: right;
+}
+
+.error {
+	border: 1px solid red;
+}
+
+.nav_main {
+	background: url(../img/fox.png) no-repeat #e55e00;
+    border-radius: 0em;
+    margin-bottom: 0px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.main {
+	margin-top: 10px;
+}
+
+.errors {
+	display: inline-block;
+    width: 200px;
+}
+
+.log_error , .reg_error , .reg_length_errors  {
+	display: none;
+	color: red;
+}
+
+.reg_log_errors {
+	display: block;
+}
+
+.box_ball {
+    float: left;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 300px;
+    transition: all 0.8s ease;
+    margin: 10px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.header_img {
+	border-radius: 4em;
+}
+
+.img_pro {
+	border-radius: 5em;
+}
+
+.nav {
+	position: relative;
+	margin-top: 30px;
+}
+
+.navbar-header {
+	margin-top: 20px;
+}
+
+.navbar {
+    border-color: #e55e00;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #000000;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #000;
+} 
+
+.img {
+	margin: 10px 10px;
+	width: 210px;
+    height: 210px;
+    float: left;
+    border: 5px solid #e55e00;
+} 
+
+.change_profil_img , .deleteImg, .editProfileSettings {
+	width: 190px;
+	margin: 15px 5px;
+}
+
+.modal-body {
+	margin-bottom: 10px;
+}
+
+.lable_edit {
+	width: 120px;
+}
+
+.del_coverImg {
+	float: right;
+    width: 250px;
+}
+
+.deleteCover {
+	margin-left: 0px;
+}
+
+.deleteCover, .change_background_img {
+	width: 240px;
+}
+
+.search_div {
+	display: none;
+	width: 300px;
+    background-color: #fff;
+    position: absolute;
+    top: 34px;
+    right: 0px;
+    border: 1px solid #ccc;
+    font-size: 25px;
+    z-index: 100;
+}
+
+.mini_img {
+	width: 50px;
+    height: 50px;
+    border-radius: 4em;
+    border: 1px solid #000;
+}
+
+.append_div {
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.top_name1 {
+    color: #fff;
+}
+
+.top_surname1 {
+    color: #fff;
+}
+
+
+.user_name_surname {
+	display: inline-block;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.Pname {
+	width: 500px;
+}
+
+.post_data {
+	position: relative;
+    width: 790px;
+    margin: auto;
+    display: inline-block;
+}
+
+.post_div {
+	margin: auto;
+}
+
+.post_date {
+	color: #fff;
+    background: #000;
+    display: inline-block;
+}
+
+.post_name {
+	font-size: 25px;
+	display: inline-block;
+    width: 760px;
+    padding: 0 15px;
+    margin: 15px 0px;
+}
+
+.remove_post {
+	float: right;
+    margin-right: 30px;
+}
+
+.deleteImgProfile {
+	display: none;
+}
+
+.deleteCover {
+	display: none;
+}
+
+.friend {
+	float: right;
+}
+
+.addImgDel {
+	display: block;
+}
+
+.main_div_append {
+	border-bottom: 1px solid #000;
+    padding: 5px;
+}
+
+.friend_notice {
+	display: none;
+}
+
+.friend_notice_block {
+	display: block;
+	position: absolute;
+    width: 400px;
+    left: -120px;
+    top: 20px;
+    background: #fff;
+}
+
+.notice_button {
+	position: relative;
+}
+
+.main_div_users {
+	text-align: left;
+	padding: 5px;
+	border-bottom: 1px solid #000;
+}
+
+.user_img {
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.add_button {
+    font-size: 11px;
+    width: 66px;
+}
+
+.button_addDiv {
+	width: 80px;
+    float: right;
+}
+
+.span_red {
+	position: absolute;
+	width: 30px;
+    height: 30px;
+    left: 15px;
+    top: -25px;
+    z-index: 1;
+    background: red;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 4em;
+    text-align: center;
+}
+
+.oks {
+    display: none;
+}
+
+.ok {
+    display: inline-block;
+    color: green;
+    font-size: 21px;
+}
+
+.no {
+    display: inline-block;
+    color: red;
+    font-size: 21px;
+}
+
+.comment {
+    width: 760px;
+    background: #fff;
+    border: 5px solid gray;
+}
+
+.comment_print {
+    width: 760px;
+}
+
+.comment_inp {
+    width: 657px;
+    margin: 5px;
+}
+
+.comment_text {
+    display: inline-block;
+    line-height: 45px;
+}
+
+.user_data {
+    width: 223px;
+    display: inline-block;
+    float: right;
+    line-height: 45px;
+    margin-right: 13px;
+}
+
+.comment_div {
+    display: inline-block;
+}
+
+.message_div {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    left: 10px;
+    top: 374px;
+}
+
+.message_button {
+    display: none;
+    width: 210px;
+}
+
+.message_sms_main {
+    display: none;
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    bottom: 0;
+    right: 10px;
+}
+
+.message_name {
+    font-size: 20px;
+    text-align: center;
+    background: #e16000;
+    color: #fff;
+}
+
+.message_sms_div {
+    position: absolute;
+    bottom: 0;
+    padding:5px;
+}
+
+.message_sms {
+    width: 220px;
+}
+
+.close_message {
+    background: #000;
+    float: right;
+    height: 28px;
+}
+
+.top_name {
+    color: #000;
+}
+
+.top_surname {
+    color: #000;
+}
+
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.body_sms {
+    overflow: scroll;
+    height: 220px;
+}
+
+.sms_block {
+    display: block;!important;
+}
+
